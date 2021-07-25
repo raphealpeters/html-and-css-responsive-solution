@@ -1,0 +1,81 @@
+/* containers */
+section{
+    margin-top: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div{
+    width: 150px;
+    height:300px;
+    text-align: left;
+    padding: 20px 30px;
+}
+/* singular cintainers/divs */
+.sedans{
+    border-radius: 5px 0px 0px 5px;
+    background-color: hsl(31, 77%, 52%);
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    border-radius: 0px 5px 5px 0px;
+    background-color: hsl(179, 100%, 13%);
+}
+/* fonts section */
+h1{
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 70px;
+    /* height: 50px; */
+}
+/* buttons section */
+button{
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+button:hover{
+    background-color: transparent;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+.sed-button{
+    color: hsl(31, 77%, 52%);
+}
+.suv-button{
+    color: hsl(184, 100%, 22%);
+}
+.lux-button{
+    color: hsl(179, 100%, 13%);
+}
+/* footer section */
+footer{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* on screen size below 700px */
+@media screen and (max-with: 660px){
+   
+    section{
+        display: inline-flex;
+        /* position: relative; */
+        flex-direction: column;
+        
+    }
+}
